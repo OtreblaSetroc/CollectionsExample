@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#87d94d"
+    android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/tvTittle"
+            android:textSize="20sp"
+            android:text="Tittle:"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvArtist"
+            android:textSize="20sp"
+            android:text="Artist:"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:55"
+            android:textStyle="bold"/>
+
+
+
+</LinearLayout>
